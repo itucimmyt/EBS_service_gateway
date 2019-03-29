@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="helloServiceEP" groupId="com.example.SampleServices.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/helloServiceEP.xml</file>
+    </artifact>
+    <artifact name="AMQPProxy" groupId="com.example.SampleServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/AMQPProxy.xml</file>
+    </artifact>
+    <artifact name="cropsServiceEP" groupId="com.example.SampleServices.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cropsServiceEP.xml</file>
+    </artifact>
+    <artifact name="myapi" groupId="com.example.SampleServices.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/myapi.xml</file>
+    </artifact>
+    <artifact name="serviceRequestQueueEP" groupId="com.example.SampleServices.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/serviceRequestQueueEP.xml</file>
+    </artifact>
+    <artifact name="serviceRequest" groupId="com.example.SampleServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/serviceRequest.xml</file>
+    </artifact>
+</artifacts>
