@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Sequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="" level="custom">
+        <property name="url" value="http://cimmytapps.cimmyt.org/ceres/appservices/Request/editForm1/ag101/a100"/>
+    </log>
+    <send>
+        <endpoint>
+            <http method="post" uri-template="http://cimmytapps.cimmyt.org:2000/ceres/appservices/Request/editForm1/ag101/a100"/>
+        </endpoint>
+    </send>
+</sequence>

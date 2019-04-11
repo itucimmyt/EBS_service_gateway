@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="statDesignProxy" startOnLoad="true" transports="http" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <log>
+                <property name="proxy_prop" value="&quot;message through file proxy&quot;"/>
+            </log>
+            <property name="FORCE_SC_ACCEPTED" scope="axis2" type="STRING" value="true"/>
+            <property name="OUT_ONLY" scope="default" type="STRING" value="true"/>
+            <send>
+                <endpoint>
+                    <address uri="vfs:ftp://jarojas:JAR2013grp7@asdev.cimmyt.org/input/?vfs.passive=true"/>
+                    <property name="transport.vfs.CreateFolder" scope="transport" value="true"/>
+                    <property name="vfs.passive" scope="transport" value="true"/>
+                    <property name="transport.vfs.ReplyFileName" scope="transport" value="example3.json"/>
+                    <property name="transport.vfs.Locking" scope="transport" value="disable"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

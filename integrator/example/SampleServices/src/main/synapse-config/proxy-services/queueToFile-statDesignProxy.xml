@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="queueToFile-statDesignProxy" startOnLoad="true" transports="rabbitmq" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <property name="OUT_ONLY" scope="default" type="STRING" value="true"/>
+            <property name="FORCE_SC_ACCEPTED" scope="axis2" type="STRING" value="true"/>
+            <property name="reqId" scope="default" type="STRING" value="2019FR8X6SA_SD_37046_RCBDNL.JSON"/>
+            <property name="transport.vfs.ContentType" scope="default" type="STRING" value="application/json"/>
+            <log level="full"/>
+            <log>
+                <property expression="json-eval($.text)" name="JSON-Payload"/>
+            </log>
+            <log>
+                <property expression="json-eval($.text.metadata)" name="JSON-Payload2"/>
+            </log>
+            <log>
+                <property expression="get-property('reqId')" name="JSON-Payload3"/>
+            </log>
+            <send>
+                <endpoint>
+                    <address uri="vfs:ftp://jarojas:JAR2013grp@172.17.33.9/input/?vfs.passive=true"/>
+                    <property name="transport.vfs.CreateFolder" scope="transport" value="true"/>
+                    <property name="vfs.passive" scope="transport" value="true"/>
+                    <property expression="get-property('reqId')" name="transport.vfs.ReplyFileName" scope="transport"/>
+                    <property name="transport.vfs.Locking" scope="transport" value="disable"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.vfs.ContentType">application/json</parameter>
+    <parameter name="rabbitmq.exchange.name"/>
+    <parameter name="rabbitmq.queue.name">SampleRequest</parameter>
+    <parameter name="rabbitmq.connection.factory">AMQPConnectionFactory</parameter>
+</proxy>

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<endpoint name="cropsServiceEP" xmlns="http://ws.apache.org/ns/synapse">
+<endpoint name="cropSaveEP" xmlns="http://ws.apache.org/ns/synapse">
     <http method="post" uri-template="http://172.17.60.49:3000/crops"/>
 </endpoint>

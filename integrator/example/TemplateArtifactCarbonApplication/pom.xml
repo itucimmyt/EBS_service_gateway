@@ -2,66 +2,41 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example.SampleServices</groupId>
-  <artifactId>SampleServicesCompositeApplication</artifactId>
-  <version>1.0.5</version>
+  <groupId>wso2.sampleFileTransferTeamplate.TemplateArtifact</groupId>
+  <artifactId>TemplateArtifactCarbonApplication</artifactId>
+  <version>1.0.0</version>
   <packaging>carbon/application</packaging>
-  <name>SampleServicesCompositeApplication</name>
-  <description>SampleServicesCompositeApplication</description>
+  <name>TemplateArtifactCarbonApplication</name>
+  <description>TemplateArtifactCarbonApplication</description>
   <properties>
+    <wso2.sampleFileTransferTeamplate.TemplateArtifact.endpoint_._cropSaveEP>capp/EnterpriseServiceBus</wso2.sampleFileTransferTeamplate.TemplateArtifact.endpoint_._cropSaveEP>
+    <wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence_._StudentDataFileProcessSeq>capp/EnterpriseServiceBus</wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence_._StudentDataFileProcessSeq>
+    <wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence_._StudentDataFileErrorSeq>capp/EnterpriseServiceBus</wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence_._StudentDataFileErrorSeq>
+    <wso2.sampleFileTransferTeamplate.TemplateArtifact.inbound-endpoint_._StudentDataFileProcessInboundEP>capp/EnterpriseServiceBus</wso2.sampleFileTransferTeamplate.TemplateArtifact.inbound-endpoint_._StudentDataFileProcessInboundEP>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
-    <com.example.SampleServices.sequence_._ErrorSequence>capp/EnterpriseServiceBus</com.example.SampleServices.sequence_._ErrorSequence>
-    <com.example.SampleServices.inbound-endpoint_._fileToRestInboundEP>capp/EnterpriseServiceBus</com.example.SampleServices.inbound-endpoint_._fileToRestInboundEP>
-    <com.example.SampleServices.api_._serviceAPI>capp/ApplicationServer</com.example.SampleServices.api_._serviceAPI>
-    <com.example.SampleServices.endpoint_._serviceRequestEP>capp/EnterpriseServiceBus</com.example.SampleServices.endpoint_._serviceRequestEP>
-    <com.example.SampleServices.sequence_._Sequence>capp/EnterpriseServiceBus</com.example.SampleServices.sequence_._Sequence>
-    <com.example.SampleServices.api_._statDesign>capp/EnterpriseServiceBus</com.example.SampleServices.api_._statDesign>
-    <com.example.SampleServices.api_._sampleAPI>capp/EnterpriseServiceBus</com.example.SampleServices.api_._sampleAPI>
-    <com.example.SampleServices.endpoint_._statDesignEP>capp/EnterpriseServiceBus</com.example.SampleServices.endpoint_._statDesignEP>
-    <com.example.SampleServices.endpoint_._cropsServiceEP>capp/EnterpriseServiceBus</com.example.SampleServices.endpoint_._cropsServiceEP>
-    <com.example.SampleServices.endpoint_._serviceRequestQueueEP>capp/EnterpriseServiceBus</com.example.SampleServices.endpoint_._serviceRequestQueueEP>
-    <com.example.SampleServices.proxy-service_._queueToFile-statDesignProxy>capp/EnterpriseServiceBus</com.example.SampleServices.proxy-service_._queueToFile-statDesignProxy>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.example.SampleServices.proxy-service</groupId>
-      <artifactId>queueToFile-statDesignProxy</artifactId>
+      <groupId>wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence</groupId>
+      <artifactId>StudentDataFileProcessSeq</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.SampleServices.endpoint</groupId>
-      <artifactId>serviceRequestQueueEP</artifactId>
+      <groupId>wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence</groupId>
+      <artifactId>StudentDataFileErrorSeq</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.SampleServices.endpoint</groupId>
-      <artifactId>statDesignEP</artifactId>
+      <groupId>wso2.sampleFileTransferTeamplate.TemplateArtifact.inbound-endpoint</groupId>
+      <artifactId>StudentDataFileProcessInboundEP</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.SampleServices.sequence</groupId>
-      <artifactId>Sequence</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.SampleServices.inbound-endpoint</groupId>
-      <artifactId>fileToRestInboundEP</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.SampleServices.sequence</groupId>
-      <artifactId>ErrorSequence</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.SampleServices.endpoint</groupId>
-      <artifactId>cropsServiceEP</artifactId>
+      <groupId>wso2.sampleFileTransferTeamplate.TemplateArtifact.endpoint</groupId>
+      <artifactId>cropSaveEP</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
@@ -107,16 +82,6 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-eclipse-plugin</artifactId>
-        <version>2.9</version>
-        <configuration>
-          <buildcommands />
-          <projectnatures>
-            <projectnature>org.wso2.developerstudio.eclipse.distribution.project.nature</projectnature>
-          </projectnatures>
-        </configuration>
-      </plugin>
-      <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-plugin</artifactId>
         <version>2.1.1</version>
@@ -149,6 +114,16 @@
               <operation>deploy</operation>
             </CarbonServer>
           </carbonServers>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <version>2.9</version>
+        <configuration>
+          <buildcommands />
+          <projectnatures>
+            <projectnature>org.wso2.developerstudio.eclipse.distribution.project.nature</projectnature>
+          </projectnatures>
         </configuration>
       </plugin>
     </plugins>

@@ -17,4 +17,28 @@
     <artifact name="serviceRequest" groupId="com.example.SampleServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/proxy-services/serviceRequest.xml</file>
     </artifact>
+    <artifact name="statDesignProxy" groupId="com.example.SampleServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/statDesignProxy.xml</file>
+    </artifact>
+    <artifact name="statDesignEP" groupId="com.example.SampleServices.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/statDesignEP.xml</file>
+    </artifact>
+    <artifact name="queueToFile-statDesignProxy" groupId="com.example.SampleServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/queueToFile-statDesignProxy.xml</file>
+    </artifact>
+    <artifact name="fileToRestInboundEP" groupId="com.example.SampleServices.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/fileToRestInboundEP.xml</file>
+    </artifact>
+    <artifact name="Sequence" groupId="com.example.SampleServices.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Sequence.xml</file>
+    </artifact>
+    <artifact name="Sequence" groupId="com.example.SampleServices.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Sequence.xml</file>
+    </artifact>
+    <artifact name="Sequence" groupId="com.example.SampleServices.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Sequence.xml</file>
+    </artifact>
+    <artifact name="ErrorSequence" groupId="com.example.SampleServices.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ErrorSequence.xml</file>
+    </artifact>
 </artifacts>

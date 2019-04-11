@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="StudentDataFileProcessInboundEP" groupId="wso2.sampleFileTransferTeamplate.TemplateArtifact.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/StudentDataFileProcessInboundEP.xml</file>
+    </artifact>
+    <artifact name="StudentDataFileProcessSeq" groupId="wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/StudentDataFileProcessSeq.xml</file>
+    </artifact>
+    <artifact name="StudentDataFileErrorSeq" groupId="wso2.sampleFileTransferTeamplate.TemplateArtifact.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/StudentDataFileErrorSeq.xml</file>
+    </artifact>
+    <artifact name="cropSaveEP" groupId="wso2.sampleFileTransferTeamplate.TemplateArtifact.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cropSaveEP.xml</file>
+    </artifact>
+</artifacts>
