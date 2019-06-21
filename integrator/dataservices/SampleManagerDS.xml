@@ -6,12 +6,13 @@
       <property name="password">siu*2016</property>
    </config>
    <query id="GetRequests" useConfig="SampleManagerDB">
-      <sql>SELECT r.id, r.request_status_id, r.crop_id,r.service_id, r.ticket_number, r.user_id, r.subservice_id, r.comments, to_char(creation_timestamp,'YYYY-MM-DD HH:MI:SS') as creation_date,(select count(1) from sm.entity_request where request_id = r.id) as entities, u.name as first_name, last_name FROM sm.request r inner join master.user u on r.user_id = u.id where :statusId in (0, request_status_id) and :cropId in (0, crop_id) and :serviceId in (0, service_id) limit 30 offset 30 * :page</sql>
+      <sql>SELECT r.id, r.request_status_id, r.crop_id,r.service_id, r.ticket_number, r.user_id, r.subservice_id, r.comments, to_char(creation_timestamp,'YYYY-MM-DD HH:MI:SS') as creation_date,(select count(1) from sm.entity_request where request_id = r.id) as entities, u.name as first_name, last_name FROM sm.request r inner join master.user u on r.user_id = u.id where :statusId in (0, request_status_id) and :cropId in (0, crop_id) and :serviceId in (0, service_id) and :subserviceId in (0, subservice_id) limit 30 offset 30 * :page</sql>
       <result outputType="json">{ "entities": { "requests": [{ "id": "$id", "ticketNumber": "$ticket_number","userId":"$user_id","subserviceId":"$subservice_id", "comments": "$comments", "creationDate":"$creation_date","totalEntities":"$entities","firstName":"$first_name","lastName":"$last_name","serviceId":"$service_id","cropId":"$crop_id","statusId":"$request_status_id"} ] }}</result>
       <param name="statusId" optional="false" sqlType="INTEGER"/>
       <param name="cropId" optional="false" sqlType="INTEGER"/>
       <param name="page" optional="false" sqlType="INTEGER"/>
       <param name="serviceId" optional="false" sqlType="INTEGER"/>
+      <param name="subserviceId" optional="false" sqlType="INTEGER"/>
    </query>
    <query id="GetEntitiesByRequestId" useConfig="SampleManagerDB">
       <sql>select id,name,entity_type_id,germplasm_id from sm.entity e inner join sm.entity_request er on er.entity_id = e.id and er.request_id = :requestId</sql>
@@ -39,12 +40,21 @@
       <sql>select id,name from sm.entity_type</sql>
       <result outputType="json">{&#xd; "entities": {"entityTypeEntities": [&#xd; {&#xd; "id": "$id",&#xd; "name": "$name"&#xd; }]}}</result>
    </query>
+   <query id="GetBatches" useConfig="SampleManagerDB">
+      <sql>select distinct b.id,b.description, to_char(b.creation_timestamp,'YYYY-MM-DD HH:MI:SS') as creation_date from sm.sample_batch b inner join sm.request r on b.id = r.sample_batch_id where :serviceId in(0,r.service_id) and :subserviceId in(0,r.subservice_id) and :cropId in(0,r.crop_id) limit 30 offset 30 * :page</sql>
+      <result outputType="json">{"entities":{"sampleBatches":[{&#xd;"id":"$id","description":"$description","creationDate":"$creation_date"&#xd;}]}}</result>
+      <param name="serviceId" sqlType="INTEGER"/>
+      <param name="subserviceId" sqlType="INTEGER"/>
+      <param name="cropId" sqlType="INTEGER"/>
+      <param name="page" sqlType="INTEGER"/>
+   </query>
    <resource method="GET" path="/requests">
       <call-query href="GetRequests">
          <with-param name="statusId" query-param="statusId"/>
          <with-param name="cropId" query-param="cropId"/>
          <with-param name="page" query-param="page"/>
          <with-param name="serviceId" query-param="serviceId"/>
+         <with-param name="subserviceId" query-param="subserviceId"/>
       </call-query>
    </resource>
    <resource method="GET" path="/requests/{requestId}/entities">
@@ -69,5 +79,13 @@
    </resource>
    <resource method="GET" path="/entityTypes">
       <call-query href="GetEntityTypes"/>
+   </resource>
+   <resource method="GET" path="/sample-batches">
+      <call-query href="GetBatches">
+         <with-param name="serviceId" query-param="serviceId"/>
+         <with-param name="subserviceId" query-param="subserviceId"/>
+         <with-param name="cropId" query-param="cropId"/>
+         <with-param name="page" query-param="page"/>
+      </call-query>
    </resource>
 </data>
