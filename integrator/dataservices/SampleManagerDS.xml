@@ -42,11 +42,23 @@
    </query>
    <query id="GetBatches" useConfig="SampleManagerDB">
       <sql>select distinct b.id,b.description, to_char(b.creation_timestamp,'YYYY-MM-DD HH:MI:SS') as creation_date from sm.sample_batch b inner join sm.request r on b.id = r.sample_batch_id where :serviceId in(0,r.service_id) and :subserviceId in(0,r.subservice_id) and :cropId in(0,r.crop_id) limit 30 offset 30 * :page</sql>
-      <result outputType="json">{"entities":{"sampleBatches":[{&#xd;"id":"$id","description":"$description","creationDate":"$creation_date"&#xd;}]}}</result>
+      <result element="response" rowName="batches">
+         <element column="creation_date" name="creation_date" xsdType="string"/>
+         <element column="description" name="description" xsdType="string"/>
+         <element column="id" name="id" xsdType="integer"/>
+         <call-query href="GetRequestsByBatchId" requiredRoles="">
+            <with-param column="id" name="sampleBatchId"/>
+         </call-query>
+      </result>
       <param name="serviceId" sqlType="INTEGER"/>
       <param name="subserviceId" sqlType="INTEGER"/>
       <param name="cropId" sqlType="INTEGER"/>
       <param name="page" sqlType="INTEGER"/>
+   </query>
+   <query id="GetRequestsByBatchId" useConfig="SampleManagerDB">
+      <sql>select id, ticket_number, crop_id, service_id, subservice_id, request_status_id, comments from sm.request where sample_batch_id = :sampleBatchId</sql>
+      <result outputType="json">{"entities":{"requests":[{&#xd;"id":"$id","comments":"$comments","cropId":"$crop_id","serviceId":"$service_id","subserviceId":"$subservice_id","statusId":"$request_status_id","ticketNumber":"$ticket_number"&#xd;}]}}</result>
+      <param name="sampleBatchId" optional="false" sqlType="INTEGER"/>
    </query>
    <resource method="GET" path="/requests">
       <call-query href="GetRequests">
