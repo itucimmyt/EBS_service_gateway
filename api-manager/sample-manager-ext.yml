@@ -1,0 +1,20 @@
+swagger: "2.0"
+paths:
+  /sample-batches:
+    post:
+      parameters:
+        - name: Payload
+          description: Request Body
+          required: true
+          in: body
+          schema:
+            type: object
+            properties:
+              payload:
+                type: string
+      responses:
+        "200":
+          description: ""
+info:
+  title: SampleManagerExtAPI
+  version: v0.1

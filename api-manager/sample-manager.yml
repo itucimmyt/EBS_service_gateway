@@ -1,0 +1,149 @@
+swagger: "2.0"
+paths:
+  /requests:
+    get:
+      responses:
+        "200":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+      parameters:
+        - name: statusId
+          in: query
+          required: true
+          type: string
+        - name: serviceId
+          in: query
+          required: true
+          type: string
+        - name: page
+          in: query
+          required: true
+          type: string
+        - name: cropId
+          in: query
+          required: true
+          type: string
+        - name: subserviceId
+          in: query
+          required: true
+          type: string
+      produces:
+        - application/json
+    put:
+      parameters:
+        - name: Payload
+          description: Request Body
+          required: false
+          in: body
+          schema:
+            type: object
+            properties:
+              payload:
+                type: string
+      responses:
+        "200":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  "/requests/{request_id}/entities":
+    get:
+      parameters:
+        - name: request_id
+          in: path
+          required: true
+          type: string
+      responses:
+        "200":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  /services:
+    get:
+      responses:
+        "200":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  /subservices:
+    get:
+      responses:
+        "200":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  /crops:
+    get:
+      responses:
+        "200":
+          description: ""
+  /entityTypes:
+    get:
+      responses:
+        "200":
+          description: ""
+  /sample-batches:
+    get:
+      responses:
+        "200":
+          description: ""
+      parameters:
+        - name: cropId
+          in: query
+          required: true
+          type: string
+        - name: serviceId
+          in: query
+          required: true
+          type: string
+        - name: subserviceId
+          in: query
+          required: true
+          type: string
+        - name: page
+          in: query
+          required: true
+          type: string
+  /requests/count:
+    get:
+      responses:
+        "200":
+          description: ""
+      parameters:
+        - name: cropId
+          in: query
+          required: true
+          type: string
+        - name: statusId
+          in: query
+          required: true
+          type: string
+        - name: serviceId
+          in: query
+          required: true
+          type: string
+        - name: subserviceId
+          in: query
+          required: true
+          type: string
+  /sample-batches/count:
+    get:
+      responses:
+        "200":
+          description: ""
+      parameters:
+        - name: cropId
+          in: query
+          required: true
+          type: string
+        - name: serviceId
+          in: query
+          required: true
+          type: string
+        - name: subserviceId
+          in: query
+          required: true
+          type: string
+info:
+  title: SampleManagerAPI
+  version: v0.1
