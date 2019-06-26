@@ -14,6 +14,14 @@
       <param name="serviceId" optional="false" sqlType="INTEGER"/>
       <param name="subserviceId" optional="false" sqlType="INTEGER"/>
    </query>
+   <query id="GetRequestsCount" useConfig="SampleManagerDB">
+      <sql>SELECT count(1) as total FROM sm.request r where :statusId in (0, request_status_id) and :cropId in (0, crop_id) and :serviceId in (0, service_id) and :subserviceId in (0, subservice_id)</sql>
+      <result outputType="json">{"entities": {"total":$total}}</result>
+      <param name="statusId" sqlType="INTEGER"/>
+      <param name="cropId" sqlType="INTEGER"/>
+      <param name="serviceId" sqlType="INTEGER"/>
+      <param name="subserviceId" sqlType="INTEGER"/>
+   </query>
    <query id="GetEntitiesByRequestId" useConfig="SampleManagerDB">
       <sql>select id,name,entity_type_id,germplasm_id from sm.entity e inner join sm.entity_request er on er.entity_id = e.id and er.request_id = :requestId</sql>
       <result outputType="json">{ "entities": { "requestEntities": [{ "id": "$id","name":"$name","germplasmId":"$germplasm_id","typeId":"$entity_type_id" } ] }}</result>
@@ -55,6 +63,13 @@
       <param name="cropId" sqlType="INTEGER"/>
       <param name="page" sqlType="INTEGER"/>
    </query>
+   <query id="GetBatchesCount" useConfig="SampleManagerDB">
+      <sql>select count(distinct b.id) as total from sm.sample_batch b inner join sm.request r on b.id = r.sample_batch_id where :serviceId in(0,r.service_id) and :subserviceId in(0,r.subservice_id) and :cropId in(0,r.crop_id)</sql>
+      <result outputType="json">{"entities": {"total":$total}}</result>
+      <param name="serviceId" sqlType="INTEGER"/>
+      <param name="subserviceId" sqlType="INTEGER"/>
+      <param name="cropId" sqlType="INTEGER"/>
+   </query>
    <query id="GetRequestsByBatchId" useConfig="SampleManagerDB">
       <sql>select id, ticket_number, crop_id, service_id, subservice_id, request_status_id, comments from sm.request where sample_batch_id = :sampleBatchId</sql>
       <result outputType="json">{"entities":{"requests":[{&#xd;"id":"$id","comments":"$comments","cropId":"$crop_id","serviceId":"$service_id","subserviceId":"$subservice_id","statusId":"$request_status_id","ticketNumber":"$ticket_number"&#xd;}]}}</result>
@@ -65,6 +80,14 @@
          <with-param name="statusId" query-param="statusId"/>
          <with-param name="cropId" query-param="cropId"/>
          <with-param name="page" query-param="page"/>
+         <with-param name="serviceId" query-param="serviceId"/>
+         <with-param name="subserviceId" query-param="subserviceId"/>
+      </call-query>
+   </resource>
+   <resource method="GET" path="/requests/count">
+      <call-query href="GetRequestsCount">
+         <with-param name="statusId" query-param="statusId"/>
+         <with-param name="cropId" query-param="cropId"/>
          <with-param name="serviceId" query-param="serviceId"/>
          <with-param name="subserviceId" query-param="subserviceId"/>
       </call-query>
@@ -98,6 +121,13 @@
          <with-param name="subserviceId" query-param="subserviceId"/>
          <with-param name="cropId" query-param="cropId"/>
          <with-param name="page" query-param="page"/>
+      </call-query>
+   </resource>
+   <resource method="GET" path="/sample-batches/count">
+      <call-query href="GetBatchesCount">
+         <with-param name="cropId" query-param="cropId"/>
+         <with-param name="serviceId" query-param="serviceId"/>
+         <with-param name="subserviceId" query-param="subserviceId"/>
       </call-query>
    </resource>
 </data>
