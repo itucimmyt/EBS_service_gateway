@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SampleManagerExtSEQ" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="sequence" value="SM-ext-SEQ"/>
+    </log>
+    <send>
+        <endpoint key="SampleManagerExtEP"/>
+    </send>
+</sequence>

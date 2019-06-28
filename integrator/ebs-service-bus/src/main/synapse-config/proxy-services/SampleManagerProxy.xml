@@ -2,10 +2,29 @@
 <proxy name="SampleManagerProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
     <target>
         <inSequence>
-            <log/>
-            <send>
-                <endpoint key="SampleManagerDsEP"/>
-            </send>
+            <conditionalRouter continueAfter="true">
+                <conditionalRoute asynchronous="true" breakRoute="true">
+                    <condition>
+                        <and>
+                            <match regex="[0-9]" source="cropId" type="param"/>
+                            <match regex="/sample-batches" type="url"/>
+                        </and>
+                    </condition>
+                    <target sequence="SampleManagerDsSEQ"/>
+                </conditionalRoute>
+                <conditionalRoute asynchronous="true" breakRoute="true">
+                    <condition>
+                        <match regex="/sample-batches" type="url"/>
+                    </condition>
+                    <target sequence="SampleManagerExtSEQ"/>
+                </conditionalRoute>
+                <conditionalRoute asynchronous="true" breakRoute="true">
+                    <condition>
+                        <match regex="/" type="url"/>
+                    </condition>
+                    <target sequence="SampleManagerDsSEQ"/>
+                </conditionalRoute>
+            </conditionalRouter>
         </inSequence>
         <outSequence>
             <send/>

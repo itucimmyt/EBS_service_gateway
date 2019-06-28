@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoint name="SampleManagerDsEP" xmlns="http://ws.apache.org/ns/synapse">
-    <http method="get" uri-template="http://172.17.60.49:8280/services/SampleManagerDS"/>
+    <http uri-template="http://172.17.60.49:8280/services/SampleManagerDS"/>
 </endpoint>

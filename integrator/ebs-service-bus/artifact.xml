@@ -5,4 +5,13 @@
     <artifact name="SampleManagerDsEP" groupId="org.cimmyt.ebs-service-bus.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/SampleManagerDsEP.xml</file>
     </artifact>
+    <artifact name="SampleManagerDsSEQ" groupId="org.cimmyt.ebs-service-bus.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SampleManagerDsSEQ.xml</file>
+    </artifact>
+    <artifact name="SampleManagerExtEP" groupId="org.cimmyt.ebs-service-bus.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SampleManagerExtEP.xml</file>
+    </artifact>
+    <artifact name="SampleManagerExtSEQ" groupId="org.cimmyt.ebs-service-bus.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SampleManagerExtSEQ.xml</file>
+    </artifact>
 </artifacts>

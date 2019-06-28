@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="SampleManagerExtEP" xmlns="http://ws.apache.org/ns/synapse">
+    <address uri="http://172.17.60.49:8080/sm"/>
+</endpoint>
