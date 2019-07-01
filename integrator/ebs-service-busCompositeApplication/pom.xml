@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cimmyt.ebs-service-bus</groupId>
   <artifactId>ebs-service-busCompositeApplication</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>carbon/application</packaging>
   <name>ebs-service-busCompositeApplication</name>
   <description>ebs-service-busCompositeApplication</description>

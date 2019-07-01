@@ -2,20 +2,14 @@
 <proxy name="SampleManagerProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
     <target>
         <inSequence>
-            <conditionalRouter continueAfter="true">
-                <conditionalRoute asynchronous="true" breakRoute="true">
-                    <condition>
-                        <match regex="/services/SampleManagerProxy/sample-batches" type="url"/>
-                    </condition>
-                    <target sequence="SampleManagerExtSEQ"/>
-                </conditionalRoute>
-                <conditionalRoute asynchronous="true" breakRoute="true">
-                    <condition>
-                        <match regex="/services/SampleManagerProxy.*" type="url"/>
-                    </condition>
-                    <target sequence="SampleManagerDsSEQ"/>
-                </conditionalRoute>
-            </conditionalRouter>
+            <switch source="get-property('To')">
+                <case regex=".*/sample-batches">
+                    <sequence key="SampleManagerExtSEQ"/>
+                </case>
+                <default>
+                    <sequence key="SampleManagerDsSEQ"/>
+                </default>
+            </switch>
             <respond/>
         </inSequence>
         <outSequence/>
