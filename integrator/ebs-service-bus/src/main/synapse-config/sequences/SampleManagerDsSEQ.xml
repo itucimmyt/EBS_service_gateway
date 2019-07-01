@@ -3,7 +3,7 @@
     <log level="custom">
         <property name="sequence" value="SM-DataService-SEQ"/>
     </log>
-    <send>
+    <call>
         <endpoint key="SampleManagerDsEP"/>
-    </send>
+    </call>
 </sequence>
