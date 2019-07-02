@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="SampleManagerProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <switch source="get-property('To')">
+                <case regex=".*/sample-batches">
+                    <sequence key="SampleManagerExtSEQ"/>
+                </case>
+                <default>
+                    <sequence key="SampleManagerDsSEQ"/>
+                </default>
+            </switch>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>
