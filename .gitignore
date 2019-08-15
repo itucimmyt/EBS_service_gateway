@@ -2,6 +2,7 @@ custom-services/build/
 custom-services/.gradle/
 integrator/.metadata/
 integrator/ebs-service-busCompositeApplication/target/
+**/**/target/
 ### VS Code ###
 .vscode/
 

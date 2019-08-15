@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_POogQL-gEemkMNe6mIuYnQ" type="DataMapper" name="GrinGlobalAccessionMapperConfig.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_PZMxgL-gEemkMNe6mIuYnQ" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_Zs4n0L-gEemkMNe6mIuYnQ" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Zs5O4L-gEemkMNe6mIuYnQ" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_Zs7EEL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Zs7rIL-gEemkMNe6mIuYnQ" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_Zs-HYL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Zs-HYr-gEemkMNe6mIuYnQ" type="5001"/>
+          <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs-HYb-gEemkMNe6mIuYnQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Zs-HY7-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Zs-HZb-gEemkMNe6mIuYnQ" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_ZxNHIL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZxNHIr-gEemkMNe6mIuYnQ" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_ZxPjYL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZxPjYr-gEemkMNe6mIuYnQ" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_ZxR_oL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxSmsL-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxR_ob-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxSmsb-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxSms7-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxSmsr-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxSmtL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxSmtr-gEemkMNe6mIuYnQ" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ZxgCEL-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxgCEb-gEemkMNe6mIuYnQ" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ZxgCEr-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxgCE7-gEemkMNe6mIuYnQ"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxSmtb-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxSmt7-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxSmub-gEemkMNe6mIuYnQ" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ZxkTgL-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxkTgb-gEemkMNe6mIuYnQ" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ZxkTgr-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxkTg7-gEemkMNe6mIuYnQ"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxSmuL-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxSmur-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxTNwL-gEemkMNe6mIuYnQ" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_Zxn94L-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zxn94b-gEemkMNe6mIuYnQ" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_Zxn94r-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zxn947-gEemkMNe6mIuYnQ"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxSmu7-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxTNwb-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxTNw7-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxTNwr-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxTNxL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxTNxr-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxTNxb-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxTNx7-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxTNyb-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxTNyL-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxTNyr-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxT00L-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxTNy7-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxT00b-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxT007-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxT00r-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxT01L-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxT01r-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxT01b-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxT017-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxT02b-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxT02L-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxT02r-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxUb4L-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxT027-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxUb4b-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxUb47-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxUb4r-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxUb5L-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxUb5r-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxUb5b-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxUb57-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxUb6b-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxUb6L-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxUb6r-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxUb7L-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxUb67-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxUb7b-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVC8L-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.17"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxUb7r-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVC8b-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVC87-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.18"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVC8r-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVC9L-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVC9r-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.19"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVC9b-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVC97-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVC-b-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.20"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVC-L-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVC-r-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVC_L-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.21"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVC-7-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVC_b-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVqAL-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.22"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVC_r-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVqAb-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ZxVqA7-gEemkMNe6mIuYnQ" type="5001"/>
+                <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.23"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVqAr-gEemkMNe6mIuYnQ"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVqBL-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVqBb-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ZxVqBr-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxVqB7-gEemkMNe6mIuYnQ"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxPjYb-gEemkMNe6mIuYnQ"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_ZxPjY7-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxPjZL-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_ZxPjZb-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxPjZr-gEemkMNe6mIuYnQ"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxNHIb-gEemkMNe6mIuYnQ"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ZxNHI7-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxNHJL-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ZxNHJb-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxNHJr-gEemkMNe6mIuYnQ"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs-HZL-gEemkMNe6mIuYnQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Zs-HZr-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs-HZ7-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Zs-HaL-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs-Hab-gEemkMNe6mIuYnQ"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs7EEb-gEemkMNe6mIuYnQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Zs7rIb-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs7rIr-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Zs7rI7-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs7rJL-gEemkMNe6mIuYnQ"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Zs4n0b-gEemkMNe6mIuYnQ"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="GrinGlobalAccessionMapperConfig.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PZNYkL-gEemkMNe6mIuYnQ" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PZN_oL-gEemkMNe6mIuYnQ" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_e7jsIL-gEemkMNe6mIuYnQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_e7kTML-gEemkMNe6mIuYnQ" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_e7vSUL-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_e7vSUr-gEemkMNe6mIuYnQ" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_e7yVoL-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7yVob-gEemkMNe6mIuYnQ" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_e7yVor-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7yVo7-gEemkMNe6mIuYnQ"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7vSUb-gEemkMNe6mIuYnQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_e7vSU7-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_e7vSVb-gEemkMNe6mIuYnQ" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_e731ML-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e731Mb-gEemkMNe6mIuYnQ" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_e74cQL-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e74cQb-gEemkMNe6mIuYnQ"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7vSVL-gEemkMNe6mIuYnQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_e7vSVr-gEemkMNe6mIuYnQ" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_e7v5YL-gEemkMNe6mIuYnQ" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_e78tsL-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e78tsb-gEemkMNe6mIuYnQ" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_e79UwL-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e79Uwb-gEemkMNe6mIuYnQ"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7vSV7-gEemkMNe6mIuYnQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_e7v5Yb-gEemkMNe6mIuYnQ" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7v5Yr-gEemkMNe6mIuYnQ" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_e7v5Y7-gEemkMNe6mIuYnQ" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7v5ZL-gEemkMNe6mIuYnQ"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="GrinGlobalAccessionMapperConfig.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e7jsIb-gEemkMNe6mIuYnQ"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="GrinGlobalAccessionMapperConfig.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PZN_ob-gEemkMNe6mIuYnQ" x="840" y="1560" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_POogQb-gEemkMNe6mIuYnQ"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="GrinGlobalAccessionMapperConfig.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_gH2gIL-gEemkMNe6mIuYnQ" type="4001" source="_ZxgCEr-gEemkMNe6mIuYnQ" target="_e7yVoL-gEemkMNe6mIuYnQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_gH2gIb-gEemkMNe6mIuYnQ" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gH2gIr-gEemkMNe6mIuYnQ" points="[-2, 0, -152, -73]$[148, 73, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gIOTkL-gEemkMNe6mIuYnQ" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gIOTkb-gEemkMNe6mIuYnQ" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gg4EIL-gEemkMNe6mIuYnQ" type="4001" source="_ZxkTgr-gEemkMNe6mIuYnQ" target="_e731ML-gEemkMNe6mIuYnQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_gg4EIb-gEemkMNe6mIuYnQ" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gg4EIr-gEemkMNe6mIuYnQ" points="[-2, 0, -152, -73]$[148, 73, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gg55UL-gEemkMNe6mIuYnQ" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gg55Ub-gEemkMNe6mIuYnQ" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_g3WDYL-gEemkMNe6mIuYnQ" type="4001" source="_Zxn94r-gEemkMNe6mIuYnQ" target="_e78tsL-gEemkMNe6mIuYnQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_g3WDYb-gEemkMNe6mIuYnQ" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="GrinGlobalAccessionMapperConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g3WDYr-gEemkMNe6mIuYnQ" points="[-2, 0, -152, -73]$[148, 73, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3XRgL-gEemkMNe6mIuYnQ" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3XRgb-gEemkMNe6mIuYnQ" id="CENTER"/>
+  </edges>
+</notation:Diagram>
