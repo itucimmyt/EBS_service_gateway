@@ -14,7 +14,7 @@
     <artifact name="SampleManagerExtEP" groupId="org.cimmyt.ebs-service-bus.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/SampleManagerExtEP.xml</file>
     </artifact>
-    <artifact name="GrinGlobal" groupId="org.cimmyt.ebs-service-bus.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
-        <file>src/main/synapse-config/proxy-services/GrinGlobal.xml</file>
+    <artifact name="GrinGlobalProxy" groupId="org.cimmyt.ebs-service-bus.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/GrinGlobalProxy.xml</file>
     </artifact>
 </artifacts>

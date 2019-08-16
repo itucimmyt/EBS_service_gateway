@@ -523,6 +523,7 @@
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID"/>
                 <properties key="nullable" value="false"/>
                 <outNode>
+                  <outgoingLink/>
                   <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
                 </outNode>
                 <inNode/>
@@ -532,6 +533,7 @@
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID"/>
                 <properties key="nullable" value="false"/>
                 <outNode>
+                  <outgoingLink/>
                   <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
                 </outNode>
                 <inNode/>
@@ -541,6 +543,7 @@
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID"/>
                 <properties key="nullable" value="false"/>
                 <outNode>
+                  <outgoingLink/>
                   <outgoingLink inNode="//@output/@treeNode.0/@node.2/@inNode"/>
                 </outNode>
                 <inNode/>
@@ -549,112 +552,144 @@
                 <properties key="type" value="number"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.3/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="instCode" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.4/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="acceNumb" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.5/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="genus" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.6/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="species" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.7/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="spauthor" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.8/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="subtaxa" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.9/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="cropName" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.10/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="acqDate" schemaDataType="NUMBER" level="6">
                 <properties key="type" value="number"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.11/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="orgCty" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.12/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="sampStat" schemaDataType="NUMBER" level="6">
                 <properties key="type" value="number"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.13/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="ancest" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.14/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="otherNumb" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.15/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="duplSite_x0024_" schemaDataType="STRING" level="6">
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.16/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="storage_x0024_" schemaDataType="NUMBER" level="6">
                 <properties key="type" value="number"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.17/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="mlsStat" schemaDataType="BOOLEAN" level="6">
                 <properties key="type" value="boolean"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.18/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="remarks_x0024_" schemaDataType="NULL" level="6">
@@ -668,14 +703,18 @@
                 <properties key="type" value="string"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.19/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <node name="available" schemaDataType="BOOLEAN" level="6">
                 <properties key="type" value="boolean"/>
                 <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available"/>
                 <properties key="nullable" value="false"/>
-                <outNode/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.20/@inNode"/>
+                </outNode>
                 <inNode/>
               </node>
               <properties key="type" value="array"/>
@@ -723,26 +762,152 @@
   </input>
   <output>
     <treeNode name="root" level="1">
-      <node name="cid" schemaDataType="STRING" level="2">
+      <node name="CID" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
-        <properties key="id" value="http://wso2jsonschema.org/0/cid"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/CID"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.1"/>
       </node>
-      <node name="sid" schemaDataType="STRING" level="2">
+      <node name="SID" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
-        <properties key="id" value="http://wso2jsonschema.org/0/sid"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/SID"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.1"/>
       </node>
-      <node name="gid" schemaDataType="STRING" level="2">
+      <node name="GID" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
-        <properties key="id" value="http://wso2jsonschema.org/0/gid"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/GID"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.1"/>
+      </node>
+      <node name="accession_id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/accession_id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="instCode" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/instCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceNumb" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceNumb"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="genus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/genus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="species" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/species"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="spauthor" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/spauthor"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="subtaxa" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/subtaxa"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="cropName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cropName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acqDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acqDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="orgCty" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/orgCty"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="sampStat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sampStat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="ancest" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ancest"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.17/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="otherNumb" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/otherNumb"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.18/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="storage_x0024_" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/storage_x0024_"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.19/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="mlsStat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/mlsStat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.20/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceUrl" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceUrl"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.22/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="available" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/available"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.23/@outNode/@outgoingLink.0"/>
       </node>
       <properties key="type" value="array"/>
       <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<proxy name="GrinGlobal" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+<proxy name="GrinGlobalProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
     <target>
         <inSequence>
             <log/>
@@ -36,7 +36,7 @@
                 <target property="BODY" type="property"/>
             </enrich>
             <payloadFactory media-type="text">
-                <format>cid,sid,gid&#xd;
+                <format>CID,SID,GID,accession_id,instCode,acceNumb,genus,species,spauthor,subtaxa,cropName,acceName,acqDate,orgCty,sampStat,ancest,otherNumb,storage_x0024_,mlsStat,acceUrl,available&#xd;
 $1</format>
                 <args>
                     <arg evaluator="xml" expression="get-property('BODY')"/>
