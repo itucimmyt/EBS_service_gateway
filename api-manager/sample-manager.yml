@@ -5,13 +5,47 @@ paths:
       responses:
         "200":
           description: ""
+          schema:
+            properties:
+              entities:
+                type: object
+                properties:
+                  requests:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: number
+                        ticketNumber:
+                          type: string
+                        lastName:
+                          type: string
+                        cropId:
+                          type: number
+                        comments:
+                          type: string
+                        requestTypeId:
+                          type: number
+                        vendorId:
+                          type: number
+                        userId:
+                          type: number
+                        totalEntities:
+                          type: number
+                        createdOn:
+                          type: string
+                        firstName:
+                          type: string
+                        requestStatusId:
+                          type: number
+                        serviceId:
+                          type: number
+                        experimentName:
+                          type: string
       x-auth-type: "Application & Application User"
       x-throttling-tier: Unlimited
       parameters:
-        - name: statusId
-          in: query
-          required: true
-          type: string
         - name: serviceId
           in: query
           required: true
@@ -24,7 +58,19 @@ paths:
           in: query
           required: true
           type: string
-        - name: subserviceId
+        - name: requestStatusId
+          in: query
+          required: true
+          type: string
+        - name: vendorId
+          in: query
+          required: true
+          type: string
+        - name: requestTypeId
+          in: query
+          required: true
+          type: string
+        - name: pageSize
           in: query
           required: true
           type: string
@@ -104,6 +150,20 @@ paths:
           in: query
           required: true
           type: string
+    post:
+      parameters:
+        - name: Payload
+          description: Request Body
+          required: false
+          in: body
+          schema:
+            type: object
+            properties:
+              payload:
+                type: string
+      responses:
+        "200":
+          description: ""
   /requests/count:
     get:
       responses:

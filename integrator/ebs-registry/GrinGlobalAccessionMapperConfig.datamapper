@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="GetDataResponse" schemaDataType="OBJECT" level="1">
+      <node name="GetDataResult" schemaDataType="OBJECT" level="2">
+        <node name="xs:schema" schemaDataType="OBJECT" level="3">
+          <node name="@id" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/id"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="xs:element" schemaDataType="OBJECT" level="4">
+            <node name="@name" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/name"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="@msdata:IsDataSet" schemaDataType="BOOLEAN" level="5">
+              <properties key="namespaces" value="{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata}"/>
+              <properties key="type" value="boolean"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:IsDataSet"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="@msdata:UseCurrentLocale" schemaDataType="BOOLEAN" level="5">
+              <properties key="namespaces" value="{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata}"/>
+              <properties key="type" value="boolean"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:UseCurrentLocale"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="xs:complexType" schemaDataType="OBJECT" level="5">
+              <node name="xs:choice" schemaDataType="OBJECT" level="6">
+                <node name="@minOccurs" schemaDataType="NUMBER" level="7">
+                  <properties key="type" value="number"/>
+                  <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="@maxOccurs" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="xs:element" level="7">
+                  <node name="@name" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:description" schemaDataType="STRING" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:transform_by_fields" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:transform_field_for_names" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:transform_field_for_captions" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:is_readonly" schemaDataType="STRING" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:transform_field_for_values" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:script_direction" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:title" schemaDataType="STRING" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:is_transform" schemaDataType="STRING" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="@msprop:configuration_options" schemaDataType="NULL" level="8">
+                    <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                    <properties key="type" value="null"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="xs:complexType" schemaDataType="OBJECT" level="8">
+                    <node name="xs:sequence" schemaDataType="OBJECT" level="9">
+                      <node name="xs:element" level="10">
+                        <node name="@name" schemaDataType="STRING" level="11">
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msdata:ReadOnly" schemaDataType="BOOLEAN" level="11">
+                          <properties key="namespaces" value="{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata}"/>
+                          <properties key="type" value="boolean"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:configuration_options" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_visible" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:default_value" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:dataview_name" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:table_field_data_type_string" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:foreign_key_field_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:table_alias_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_nullable" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:foreign_key_dataview_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:title" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_readonly" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_autoincrement" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_foreign_key" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:foreign_key_table_field_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:table_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:group_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:gui_hint" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:foreign_key_dataview_param" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:description" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:max_length" schemaDataType="NUMBER" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="number"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:dataview_field_name" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_readonly_on_insert" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:is_primary_key" schemaDataType="STRING" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@msprop:table_field_name" schemaDataType="NULL" level="11">
+                          <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop}"/>
+                          <properties key="type" value="null"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@type" schemaDataType="STRING" level="11">
+                          <properties key="type" value="string"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <node name="@minOccurs" schemaDataType="NUMBER" level="11">
+                          <properties key="type" value="number"/>
+                          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs"/>
+                          <properties key="nullable" value="false"/>
+                          <outNode/>
+                          <inNode/>
+                        </node>
+                        <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                        <properties key="type" value="array"/>
+                        <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element"/>
+                        <properties key="items_id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element"/>
+                        <properties key="items_type" value="object"/>
+                        <properties key="nullable" value="false"/>
+                        <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs]}"/>
+                        <properties key="attribute_type" value="{attribute_type=[string, boolean, null, string, null, string, null, null, null, string, null, string, string, string, string, null, null, null, null, null, null, number, string, string, string, null, string, number]}"/>
+                        <outNode/>
+                        <inNode/>
+                      </node>
+                      <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                      <properties key="type" value="object"/>
+                      <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence"/>
+                      <properties key="nullable" value="false"/>
+                      <properties key="properties_id" value="{xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                    <properties key="type" value="object"/>
+                    <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType"/>
+                    <properties key="nullable" value="false"/>
+                    <properties key="properties_id" value="{xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                  <properties key="type" value="array"/>
+                  <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element"/>
+                  <properties key="items_id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0"/>
+                  <properties key="items_type" value="object"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options]}"/>
+                  <properties key="attribute_type" value="{attribute_type=[string, string, null, null, null, string, null, null, string, string, null]}"/>
+                  <properties key="properties_id" value="{xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice"/>
+                <properties key="nullable" value="false"/>
+                <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs]}"/>
+                <properties key="attribute_type" value="{attribute_type=[number, string]}"/>
+                <properties key="properties_id" value="{xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, type=string}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, type=string}, msprop:transform_by_fields={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, type=null}, msprop:transform_field_for_names={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, type=null}, msprop:transform_field_for_captions={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, type=null}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, type=string}, msprop:transform_field_for_values={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, type=null}, msprop:script_direction={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, type=string}, msprop:is_transform={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, type=string}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options, type=null}}}]}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="xs:unique" schemaDataType="OBJECT" level="5">
+              <node name="@name" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/name"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="@msdata:PrimaryKey" schemaDataType="BOOLEAN" level="6">
+                <properties key="namespaces" value="{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata}"/>
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/msdata:PrimaryKey"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="xs:selector" schemaDataType="OBJECT" level="6">
+                <node name="@xpath" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:selector"/>
+                <properties key="nullable" value="false"/>
+                <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath]}"/>
+                <properties key="attribute_type" value="{attribute_type=[string]}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="xs:field" schemaDataType="OBJECT" level="6">
+                <node name="@xpath" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:field"/>
+                <properties key="nullable" value="false"/>
+                <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath]}"/>
+                <properties key="attribute_type" value="{attribute_type=[string]}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique"/>
+              <properties key="nullable" value="false"/>
+              <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/msdata:PrimaryKey]}"/>
+              <properties key="attribute_type" value="{attribute_type=[string, boolean]}"/>
+              <properties key="properties_id" value="{xs:choice={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, type=string}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, type=string}, msprop:transform_by_fields={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, type=null}, msprop:transform_field_for_names={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, type=null}, msprop:transform_field_for_captions={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, type=null}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, type=string}, msprop:transform_field_for_values={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, type=null}, msprop:script_direction={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, type=string}, msprop:is_transform={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, type=string}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options, type=null}}}]}}, attributes={minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs, type=number}, maxOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs, type=string}}}}"/>
+              <properties key="properties_id" value="{xs:selector={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:selector, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}, xs:field={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:field, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element"/>
+            <properties key="nullable" value="false"/>
+            <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/name, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:IsDataSet, http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:UseCurrentLocale]}"/>
+            <properties key="attribute_type" value="{attribute_type=[string, boolean, boolean]}"/>
+            <properties key="properties_id" value="{xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType, type=object, properties={xs:choice={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, type=string}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, type=string}, msprop:transform_by_fields={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, type=null}, msprop:transform_field_for_names={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, type=null}, msprop:transform_field_for_captions={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, type=null}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, type=string}, msprop:transform_field_for_values={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, type=null}, msprop:script_direction={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, type=string}, msprop:is_transform={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, type=string}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options, type=null}}}]}}, attributes={minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs, type=number}, maxOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs, type=string}}}}}, xs:unique={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique, type=object, properties={xs:selector={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:selector, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}, xs:field={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:field, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/name, type=string}, msdata:PrimaryKey={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/msdata:PrimaryKey, type=boolean}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=xs, url=http://www.w3.org/2001/XMLSchema}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/xs:schema"/>
+          <properties key="nullable" value="false"/>
+          <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/xs:schema/id]}"/>
+          <properties key="attribute_type" value="{attribute_type=[string]}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="diffgr:diffgram" schemaDataType="OBJECT" level="3">
+          <node name="SecureDataDataSet" schemaDataType="OBJECT" level="4">
+            <node name="get_passport_data" level="5">
+              <node name="@diffgr:id" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=diffgr, url=urn:schemas-microsoft-com:xml-diffgram-v1}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/diffgr:id"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="@msdata:rowOrder" schemaDataType="NUMBER" level="6">
+                <properties key="namespaces" value="{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata}"/>
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/msdata:rowOrder"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="CID" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="SID" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="GID" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink/>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="accession_id" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="instCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.4/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="acceNumb" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.5/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="genus" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.6/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="species" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.7/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="spauthor" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.8/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="subtaxa" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.9/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="cropName" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.10/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="acqDate" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.11/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="orgCty" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.12/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="sampStat" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.13/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="ancest" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.14/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="otherNumb" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.15/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="duplSite_x0024_" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.16/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="storage_x0024_" schemaDataType="NUMBER" level="6">
+                <properties key="type" value="number"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.17/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="mlsStat" schemaDataType="BOOLEAN" level="6">
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.18/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="remarks_x0024_" schemaDataType="NULL" level="6">
+                <properties key="type" value="null"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/remarks_x0024_"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="acceUrl" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.19/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="available" schemaDataType="BOOLEAN" level="6">
+                <properties key="type" value="boolean"/>
+                <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.20/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="array"/>
+              <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data"/>
+              <properties key="items_id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0"/>
+              <properties key="items_type" value="object"/>
+              <properties key="nullable" value="false"/>
+              <properties key="attribute_id" value="{attribute_id=[http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/diffgr:id, http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/msdata:rowOrder]}"/>
+              <properties key="attribute_type" value="{attribute_type=[string, number]}"/>
+              <properties key="properties_id" value="{CID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID, type=number}, SID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID, type=number}, GID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID, type=number}, accession_id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id, type=number}, instCode={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode, type=string}, acceNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb, type=string}, genus={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus, type=string}, species={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species, type=string}, spauthor={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor, type=string}, subtaxa={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa, type=string}, cropName={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName, type=string}, acqDate={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate, type=number}, orgCty={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty, type=string}, sampStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat, type=number}, ancest={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest, type=string}, otherNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb, type=string}, duplSite_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_, type=string}, storage_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_, type=number}, mlsStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat, type=boolean}, remarks_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/remarks_x0024_, type=null}, acceUrl={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl, type=string}, available={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available, type=boolean}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{get_passport_data={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0, type=object, properties={CID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID, type=number}, SID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID, type=number}, GID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID, type=number}, accession_id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id, type=number}, instCode={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode, type=string}, acceNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb, type=string}, genus={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus, type=string}, species={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species, type=string}, spauthor={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor, type=string}, subtaxa={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa, type=string}, cropName={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName, type=string}, acqDate={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate, type=number}, orgCty={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty, type=string}, sampStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat, type=number}, ancest={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest, type=string}, otherNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb, type=string}, duplSite_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_, type=string}, storage_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_, type=number}, mlsStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat, type=boolean}, remarks_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/remarks_x0024_, type=null}, acceUrl={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl, type=string}, available={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available, type=boolean}}, attributes={diffgr:id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/diffgr:id, type=string}, msdata:rowOrder={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/msdata:rowOrder, type=number}}}]}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=diffgr, url=urn:schemas-microsoft-com:xml-diffgram-v1}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/GetDataResult/diffgr:diffgram"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType, type=object, properties={xs:choice={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, type=string}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, type=string}, msprop:transform_by_fields={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, type=null}, msprop:transform_field_for_names={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, type=null}, msprop:transform_field_for_captions={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, type=null}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, type=string}, msprop:transform_field_for_values={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, type=null}, msprop:script_direction={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, type=string}, msprop:is_transform={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, type=string}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options, type=null}}}]}}, attributes={minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs, type=number}, maxOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs, type=string}}}}}, xs:unique={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique, type=object, properties={xs:selector={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:selector, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}, xs:field={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:field, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/name, type=string}, msdata:PrimaryKey={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/msdata:PrimaryKey, type=boolean}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/name, type=string}, msdata:IsDataSet={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:IsDataSet, type=boolean}, msdata:UseCurrentLocale={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:UseCurrentLocale, type=boolean}}}}"/>
+          <properties key="properties_id" value="{SecureDataDataSet={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet, type=object, properties={get_passport_data={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0, type=object, properties={CID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID, type=number}, SID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID, type=number}, GID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID, type=number}, accession_id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id, type=number}, instCode={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode, type=string}, acceNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb, type=string}, genus={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus, type=string}, species={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species, type=string}, spauthor={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor, type=string}, subtaxa={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa, type=string}, cropName={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName, type=string}, acqDate={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate, type=number}, orgCty={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty, type=string}, sampStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat, type=number}, ancest={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest, type=string}, otherNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb, type=string}, duplSite_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_, type=string}, storage_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_, type=number}, mlsStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat, type=boolean}, remarks_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/remarks_x0024_, type=null}, acceUrl={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl, type=string}, available={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available, type=boolean}}, attributes={diffgr:id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/diffgr:id, type=string}, msdata:rowOrder={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/msdata:rowOrder, type=number}}}]}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/GetDataResult"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{xs:schema={id=http://wso2jsonschema.org/GetDataResult/xs:schema, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType, type=object, properties={xs:choice={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0, type=object, properties={xs:complexType={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType, type=object, properties={xs:sequence={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence, type=object, properties={xs:element={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/xs:element, type=object, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/name, type=string}, msdata:ReadOnly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msdata:ReadOnly, type=boolean}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:configuration_options, type=null}, msprop:is_visible={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_visible, type=string}, msprop:default_value={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:default_value, type=null}, msprop:dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_name, type=string}, msprop:table_field_data_type_string={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_data_type_string, type=null}, msprop:foreign_key_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_field_name, type=null}, msprop:table_alias_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_alias_name, type=null}, msprop:is_nullable={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_nullable, type=string}, msprop:foreign_key_dataview_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_name, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:title, type=string}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly, type=string}, msprop:is_autoincrement={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_autoincrement, type=string}, msprop:is_foreign_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_foreign_key, type=string}, msprop:foreign_key_table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_table_field_name, type=null}, msprop:table_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_name, type=null}, msprop:group_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:group_name, type=null}, msprop:gui_hint={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:gui_hint, type=null}, msprop:foreign_key_dataview_param={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:foreign_key_dataview_param, type=null}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:description, type=null}, msprop:max_length={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:max_length, type=number}, msprop:dataview_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:dataview_field_name, type=string}, msprop:is_readonly_on_insert={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_readonly_on_insert, type=string}, msprop:is_primary_key={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:is_primary_key, type=string}, msprop:table_field_name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/msprop:table_field_name, type=null}, type={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/type, type=string}, minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/xs:complexType/xs:sequence/xs:element/minOccurs, type=number}}}]}}}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/name, type=string}, msprop:description={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:description, type=string}, msprop:transform_by_fields={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_by_fields, type=null}, msprop:transform_field_for_names={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_names, type=null}, msprop:transform_field_for_captions={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_captions, type=null}, msprop:is_readonly={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_readonly, type=string}, msprop:transform_field_for_values={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:transform_field_for_values, type=null}, msprop:script_direction={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:script_direction, type=null}, msprop:title={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:title, type=string}, msprop:is_transform={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:is_transform, type=string}, msprop:configuration_options={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/xs:element/0/msprop:configuration_options, type=null}}}]}}, attributes={minOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/minOccurs, type=number}, maxOccurs={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:complexType/xs:choice/maxOccurs, type=string}}}}}, xs:unique={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique, type=object, properties={xs:selector={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:selector, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}, xs:field={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xs:field, type=object, attributes={xpath={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/xpath, type=string}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/name, type=string}, msdata:PrimaryKey={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/xs:unique/msdata:PrimaryKey, type=boolean}}}}, attributes={name={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/name, type=string}, msdata:IsDataSet={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:IsDataSet, type=boolean}, msdata:UseCurrentLocale={id=http://wso2jsonschema.org/GetDataResult/xs:schema/xs:element/msdata:UseCurrentLocale, type=boolean}}}}, attributes={id={id=http://wso2jsonschema.org/GetDataResult/xs:schema/id, type=string}}}, diffgr:diffgram={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram, type=object, properties={SecureDataDataSet={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet, type=object, properties={get_passport_data={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data, type=array, items=[{id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0, type=object, properties={CID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/CID, type=number}, SID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/SID, type=number}, GID={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/GID, type=number}, accession_id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/accession_id, type=number}, instCode={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/instCode, type=string}, acceNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceNumb, type=string}, genus={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/genus, type=string}, species={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/species, type=string}, spauthor={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/spauthor, type=string}, subtaxa={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/subtaxa, type=string}, cropName={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/cropName, type=string}, acqDate={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acqDate, type=number}, orgCty={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/orgCty, type=string}, sampStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/sampStat, type=number}, ancest={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/ancest, type=string}, otherNumb={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/otherNumb, type=string}, duplSite_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/duplSite_x0024_, type=string}, storage_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/storage_x0024_, type=number}, mlsStat={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/mlsStat, type=boolean}, remarks_x0024_={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/remarks_x0024_, type=null}, acceUrl={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/acceUrl, type=string}, available={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/available, type=boolean}}, attributes={diffgr:id={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/diffgr:id, type=string}, msdata:rowOrder={id=http://wso2jsonschema.org/GetDataResult/diffgr:diffgram/SecureDataDataSet/get_passport_data/0/msdata:rowOrder, type=number}}}]}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=msprop, url=urn:schemas-microsoft-com:xml-msprop},{prefix=msdata, url=urn:schemas-microsoft-com:xml-msdata},{prefix=xs, url=http://www.w3.org/2001/XMLSchema},{prefix=diffgr, url=urn:schemas-microsoft-com:xml-diffgram-v1}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" level="1">
+      <node name="CID" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/CID"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.1"/>
+      </node>
+      <node name="SID" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/SID"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.1"/>
+      </node>
+      <node name="GID" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/GID"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.1"/>
+      </node>
+      <node name="accession_id" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/accession_id"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="instCode" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/instCode"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceNumb" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceNumb"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="genus" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/genus"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="species" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/species"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="spauthor" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/spauthor"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="subtaxa" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/subtaxa"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="cropName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/cropName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceName" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceName"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acqDate" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acqDate"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="orgCty" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/orgCty"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="sampStat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/sampStat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="ancest" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/ancest"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.17/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="otherNumb" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/otherNumb"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.18/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="storage_x0024_" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/storage_x0024_"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.19/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="mlsStat" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/mlsStat"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.20/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="acceUrl" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/acceUrl"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.22/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="available" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/0/available"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.23/@outNode/@outgoingLink.0"/>
+      </node>
+      <properties key="type" value="array"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="items_id" value="http://wso2jsonschema.org/0"/>
+      <properties key="items_type" value="object"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

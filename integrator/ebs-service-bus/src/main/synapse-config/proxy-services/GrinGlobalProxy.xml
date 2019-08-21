@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="GrinGlobalProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <log/>
+            <propertyGroup>
+                <property name="FORCE_SC_ACCEPTED" scope="axis2" type="STRING" value="true"/>
+            </propertyGroup>
+            <payloadFactory media-type="xml">
+                <format>
+                    <soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <soap12:Body>
+                            <GetData xmlns="http://tempuri.org/">
+                                <suppressExceptions>false</suppressExceptions>
+                                <userName>readuser</userName>
+                                <password>test</password>
+                                <dataviewName>get_passport_data</dataviewName>
+                                <delimitedParameterList>:accessionid=;:idaccession=176370;:taxonomyspeciesid=;:inventoryid=;:orderrequestid=;:geographyid=;:cooperatorid=;:taxonomygenusid=;</delimitedParameterList>
+                                <offset>0</offset>
+                                <limit>200000</limit>
+                                <options>1</options>
+                            </GetData>
+                        </soap12:Body>
+                    </soap12:Envelope>
+                </format>
+                <args/>
+            </payloadFactory>
+            <call>
+                <endpoint>
+                    <wsdl port="GUISoap12" service="GUI" uri="http://172.17.61.156/gringlobal/GUI.asmx?wsdl"/>
+                </endpoint>
+            </call>
+            <datamapper config="gov:datamapper/GrinGlobalAccessionMapperConfig.dmc" inputSchema="gov:datamapper/GrinGlobalAccessionMapperConfig_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/GrinGlobalAccessionMapperConfig_outputSchema.json" outputType="CSV" xsltStyleSheet="gov:datamapper/GrinGlobalAccessionMapperConfig_xsltStyleSheet.xml"/>
+            <enrich>
+                <source clone="true" type="body"/>
+                <target property="BODY" type="property"/>
+            </enrich>
+            <payloadFactory media-type="text">
+                <format>CID,SID,GID,accession_id,instCode,acceNumb,genus,species,spauthor,subtaxa,cropName,acceName,acqDate,orgCty,sampStat,ancest,otherNumb,storage_x0024_,mlsStat,acceUrl,available&#xd;
+$1</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('BODY')"/>
+                </args>
+            </payloadFactory>
+            <send>
+                <endpoint>
+                    <address uri="vfs:ftp://jarojas:JAR2013grp@172.17.61.4/ftpfiles/file.csv?transport.vfs.passive=true"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

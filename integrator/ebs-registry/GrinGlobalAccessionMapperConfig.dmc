@@ -1,0 +1,56 @@
+map_S_GetDataResponse_S_root = function(){ 
+var outputroot={};
+
+var count_i_get_passport_data = 0;
+outputroot =  [];
+
+for(i_get_passport_data in inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data){
+outputroot[count_i_get_passport_data] =  {};
+outputroot[count_i_get_passport_data].CID = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].CID).toString();
+outputroot[count_i_get_passport_data].SID = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].SID).toString();
+outputroot[count_i_get_passport_data].GID = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].GID).toString();
+outputroot[count_i_get_passport_data].accession_id = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].accession_id).toString();
+outputroot[count_i_get_passport_data].instCode = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].instCode;
+outputroot[count_i_get_passport_data].acceNumb = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].acceNumb;
+outputroot[count_i_get_passport_data].genus = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].genus;
+outputroot[count_i_get_passport_data].species = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].species;
+outputroot[count_i_get_passport_data].spauthor = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].spauthor;
+outputroot[count_i_get_passport_data].subtaxa = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].subtaxa;
+outputroot[count_i_get_passport_data].cropName = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].cropName;
+outputroot[count_i_get_passport_data].acceName = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].acqDate).toString();
+outputroot[count_i_get_passport_data].acqDate = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].orgCty;
+outputroot[count_i_get_passport_data].orgCty = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].sampStat).toString();
+outputroot[count_i_get_passport_data].sampStat = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].ancest;
+outputroot[count_i_get_passport_data].ancest = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].otherNumb;
+outputroot[count_i_get_passport_data].otherNumb = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].duplSite_x0024_;
+outputroot[count_i_get_passport_data].storage_x0024_ = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].storage_x0024_).toString();
+outputroot[count_i_get_passport_data].mlsStat = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].mlsStat).toString();
+outputroot[count_i_get_passport_data].acceUrl = inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].acceUrl;
+outputroot[count_i_get_passport_data].available = (inputGetDataResponse.GetDataResult.diffgr_diffgram.SecureDataDataSet.get_passport_data[i_get_passport_data].available).toString();
+
+count_i_get_passport_data++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

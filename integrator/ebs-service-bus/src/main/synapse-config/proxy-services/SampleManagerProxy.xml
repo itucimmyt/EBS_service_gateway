@@ -13,6 +13,10 @@
             <respond/>
         </inSequence>
         <outSequence/>
-        <faultSequence/>
+        <faultSequence>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <log level="full"/>
+            <respond/>
+        </faultSequence>
     </target>
 </proxy>
