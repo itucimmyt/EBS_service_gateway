@@ -139,6 +139,25 @@
       <sql>delete from sm.vendor where id=:id</sql>
       <param name="id" optional="false" sqlType="INTEGER"/>
    </query>
+   <query id="GetRequestTypes" useConfig="SampleManagerDB">
+      <sql>SELECT id, description FROM sm.request_type</sql>
+      <result outputType="json">{"entities":{"requestTypes":[{"id":$id,"description":"$description"}]}}</result>
+   </query>
+   <query id="AddRequestType" useConfig="SampleManagerDB">
+      <sql>INSERT INTO sm.request_type (description,created_on,created_by) VALUES (:description,now(),:createdBy)</sql>
+      <param name="description" sqlType="STRING"/>
+      <param name="createdBy" optional="false" sqlType="INTEGER"/>
+   </query>
+   <query id="UpdateRequestType" useConfig="SampleManagerDB">
+      <sql>UPDATE sm.request_type SET description = :description, updated_on=now(), updated_by=:updatedBy where id = :id</sql>
+      <param name="description" sqlType="STRING"/>
+      <param name="updatedBy" optional="false" sqlType="INTEGER"/>
+      <param name="id" optional="false" sqlType="INTEGER"/>
+   </query>
+   <query id="DeleteRequestType" useConfig="SampleManagerDB">
+      <sql>DELETE FROM sm.request_type WHERE id=:id</sql>
+      <param name="id" optional="false" sqlType="INTEGER"/>
+   </query>
    <resource method="GET" path="/requests">
       <call-query href="GetRequests">
          <with-param name="requestStatusId" query-param="requestStatusId"/>
@@ -262,6 +281,27 @@
    </resource>
    <resource method="DELETE" path="/vendors">
       <call-query href="DeleteVendor">
+         <with-param name="id" query-param="id"/>
+      </call-query>
+   </resource>
+   <resource method="GET" path="/request-types">
+      <call-query href="GetRequestTypes"/>
+   </resource>
+   <resource method="POST" path="/request-types">
+      <call-query href="AddRequestType">
+         <with-param name="description" query-param="description"/>
+         <with-param name="createdBy" query-param="createdBy"/>
+      </call-query>
+   </resource>
+   <resource method="PUT" path="/request-types">
+      <call-query href="UpdateRequestType">
+         <with-param name="description" query-param="description"/>
+         <with-param name="updatedBy" query-param="updatedBy"/>
+         <with-param name="id" query-param="id"/>
+      </call-query>
+   </resource>
+   <resource method="DELETE" path="/request-types">
+      <call-query href="DeleteRequestType">
          <with-param name="id" query-param="id"/>
       </call-query>
    </resource>

@@ -272,6 +272,84 @@ paths:
           description: ""
       x-auth-type: "Application & Application User"
       x-throttling-tier: Unlimited
+  /request-types:
+    get:
+      responses:
+        "200":
+          description: ""
+          schema:
+            properties:
+              entities:
+                type: object
+                properties:
+                  requestTypes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        description:
+                          type: string
+                        id:
+                          type: number
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    post:
+      parameters:
+        - name: requestType
+          in: body
+          schema:
+            type: object
+            properties:
+              requestType:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  createdBy:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    put:
+      parameters:
+        - name: requestType
+          in: body
+          schema:
+            type: object
+            properties:
+              requestType:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  updatedBy:
+                    type: number
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    delete:
+      parameters:
+        - name: requestType
+          in: body
+          schema:
+            type: object
+            properties:
+              requestType:
+                type: object
+                properties:
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
   /vendors:
     get:
       responses:
