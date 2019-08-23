@@ -109,12 +109,256 @@ paths:
       responses:
         "200":
           description: ""
+          schema:
+            properties:
+              entities:
+                type: object
+                properties:
+                  services:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        code:
+                          type: string
+                        description:
+                          type: string
+                        serviceTypeId:
+                          type: number
+                        id:
+                          type: number
       x-auth-type: "Application & Application User"
       x-throttling-tier: Unlimited
-  /subservices:
+    post:
+      parameters:
+        - name: service
+          in: body
+          schema:
+            type: object
+            properties:
+              service:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  code:
+                    type: string
+                  createdBy:
+                    type: number
+                  serviceTypeId:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    put:
+      parameters:
+        - name: service
+          in: body
+          schema:
+            type: object
+            properties:
+              service:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  code:
+                    type: string
+                  serviceTypeId:
+                    type: number
+                  updatedBy:
+                    type: number
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    delete:
+      parameters:
+        - name: service
+          in: body
+          schema:
+            type: object
+            properties:
+              service:
+                type: object
+                properties:
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  /service-types:
     get:
       responses:
         "200":
+          description: ""
+          schema:
+            properties:
+              entities:
+                type: object
+                properties:
+                  serviceTypes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        description:
+                          type: string
+                        id:
+                          type: number
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    post:
+      parameters:
+        - name: serviceType
+          in: body
+          schema:
+            type: object
+            properties:
+              serviceType:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  createdBy:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    put:
+      parameters:
+        - name: serviceType
+          in: body
+          schema:
+            type: object
+            properties:
+              serviceType:
+                type: object
+                properties:
+                  description:
+                    type: string
+                  updatedBy:
+                    type: number
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    delete:
+      parameters:
+        - name: serviceType
+          in: body
+          schema:
+            type: object
+            properties:
+              serviceType:
+                type: object
+                properties:
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+  /vendors:
+    get:
+      responses:
+        "200":
+          description: ""
+          schema:
+            properties:
+              entities:
+                type: object
+                properties:
+                  vendors:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        assayId:
+                          type: number
+                        name:
+                          type: string
+                        serviceTypeId:
+                          type: number
+                        id:
+                          type: number
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    post:
+      parameters:
+        - name: vendor
+          in: body
+          schema:
+            type: object
+            properties:
+              vendor:
+                type: object
+                properties:
+                  assayId:
+                    type: number
+                  serviceTypeId:
+                    type: number
+                  createdBy:
+                    type: number
+                  name:
+                    type: string
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    put:
+      parameters:
+        - name: vendor
+          in: body
+          schema:
+            type: object
+            properties:
+              vendor:
+                type: object
+                properties:
+                  assayId:
+                    type: number
+                  serviceTypeId:
+                    type: number
+                  name:
+                    type: string
+                  updatedBy:
+                    type: number
+                  id:
+                    type: number
+      responses:
+        "202":
+          description: ""
+      x-auth-type: "Application & Application User"
+      x-throttling-tier: Unlimited
+    delete:
+      parameters:
+        - name: vendor
+          in: body
+          schema:
+            type: object
+            properties:
+              vendor:
+                type: object
+                properties:
+                  id:
+                    type: number
+      responses:
+        "202":
           description: ""
       x-auth-type: "Application & Application User"
       x-throttling-tier: Unlimited
